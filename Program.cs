@@ -1,3 +1,4 @@
 ﻿using static System.Console;
 
-DB db = new DB();
+CreateMonsterUI monsterUI = new();
+monsterUI.Run();
