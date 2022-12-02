@@ -13,4 +13,48 @@ public class DB
     {
 
     }
+    public void CombatEncounter()
+    {
+        //Fight one or more monsters at once
+    }
+    public void AddMonsterToEncounter()
+    {
+
+    }
+    public void RandomMonster()
+    {
+
+    }
+    public void RandomMonsterAttack()
+    {
+
+    }
+    public void ShowMonsterInfo()
+    {
+        //Everything combat relevant
+    }
+    public void AddMonsterToDB()
+    {
+        
+    }
+    public void RemoveMonsterFromDB()
+    {
+
+    }
+    public void AddWeaponToDB()
+    {
+
+    }
+    public void RemoveWeaponFromDB()
+    {
+
+    }
+    public void AddWeaponToMonster()
+    {
+
+    }
+    public void RemoveWeaponFromMonster()
+    {
+
+    }
 }
