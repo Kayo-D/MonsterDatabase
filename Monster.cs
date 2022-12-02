@@ -10,7 +10,7 @@ public class Monster
     private string[]? Immunities;
     private string[]? Attacks;
     private string[]? Abilities;
-    public List<string>? Weapons;
+    public List<string> Weapons = new List<string>();
     public Monster(string name, float challengeRating, int armorClass, int hitPointsMax,
     string[]? resistances, string[]? vulnerabilities, string[]? immunities, string[]? attacks, string[]? abilities)
     {
@@ -24,5 +24,13 @@ public class Monster
         this.Immunities = immunities;
         this.Attacks = attacks;
         this.Abilities = abilities;
+    }
+    public void AddWeapon(string weaponName)
+    {
+        Weapons.Add(weaponName);
+    }
+    public void RemoveWeapon(string weaponName)
+    {
+        Weapons.Remove(weaponName);
     }
 }

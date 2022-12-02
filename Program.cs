@@ -1,1 +1,3 @@
-﻿DB db = new DB();
+﻿using static System.Console;
+
+DB db = new DB();
