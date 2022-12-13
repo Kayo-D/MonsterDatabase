@@ -1,17 +1,17 @@
 public class Monster
 {
-    private string? Name;
-    private float ChallengeRating;
-    private int ArmorClass;
-    private int HitPointsMax;
-    private int CurrentHitPoints;
-    private string[]? Resistances;
-    private string[]? Vulnerabilities;
-    private string[]? Immunities;
-    private string[]? Attacks;
-    private string[]? Abilities;
+    public string? Name;
+    public float ChallengeRating;
+    public int ArmorClass;
+    public int HitPointsMax;
+    public int CurrentHitPoints;
+    public string? Resistances;
+    public string? Vulnerabilities;
+    public string? Immunities;
+    public List<string> Attacks = new List<string>();
+    public List<string> Abilities = new List<string>();
     public List<string> Weapons = new List<string>();
-    public Monster(string name, float challengeRating, int armorClass, int hitPointsMax,
+    /* public Monster(string name, float challengeRating, int armorClass, int hitPointsMax,
     string[]? resistances, string[]? vulnerabilities, string[]? immunities, string[]? attacks, string[]? abilities)
     {
         this.Name = name;
@@ -24,7 +24,7 @@ public class Monster
         this.Immunities = immunities;
         this.Attacks = attacks;
         this.Abilities = abilities;
-    }
+    } */
     public void AddWeapon(string weaponName)
     {
         Weapons.Add(weaponName);
