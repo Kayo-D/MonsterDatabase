@@ -2,7 +2,7 @@ public class Monster
 {
     public int ID;
     public string? Name;
-    public float ChallengeRating;
+    public int ChallengeRating;
     public int ArmorClass;
     public int HitPointsMax;
     public int CurrentHitPoints;
