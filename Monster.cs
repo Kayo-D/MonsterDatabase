@@ -1,5 +1,6 @@
 public class Monster
 {
+    public int ID;
     public string? Name;
     public float ChallengeRating;
     public int ArmorClass;
@@ -8,6 +9,10 @@ public class Monster
     public string? Resistances;
     public string? Vulnerabilities;
     public string? Immunities;
+    public int Speed;
+    public string? Size;
+    public int HitModifier;
+    public int DamageModifier;
     public List<string> Attacks = new List<string>();
     public List<string> Abilities = new List<string>();
     public List<string> Weapons = new List<string>();

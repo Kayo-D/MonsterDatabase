@@ -3,4 +3,8 @@
 //CreateMonsterUI monsterUI = new();
 //monsterUI.Run();
 UI ui = new UI();
-ui.Run();
+//ui.AddMonsterUI();
+//ui.RunUI();
+//ui.RemoveMonsterUI();
+//ui.GetAverageCRUI();
+ui.ChangeMonsterNameUI();
