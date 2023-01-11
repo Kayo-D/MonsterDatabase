@@ -13,6 +13,7 @@ public class Monster
     public string? Size;
     public int HitModifier;
     public int DamageModifier;
+    //Make Attacks/Abilities/Weapons into seperate classes so we can store multiple values in them
     public List<string> Attacks = new List<string>();
     public List<string> Abilities = new List<string>();
     public List<string> Weapons = new List<string>();
